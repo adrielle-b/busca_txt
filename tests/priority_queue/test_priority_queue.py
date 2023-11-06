@@ -11,12 +11,16 @@ mock_data = [
     {
         "nome_do_arquivo": "file2.txt",
         "qtd_linhas": 6,
-        "linhas_do_arquivo": ["line_1", "line_2", "line_3", "line_4", "line_5", "line_6"]
+        "linhas_do_arquivo": [
+            "line_1", "line_2", "line_3", "line_4", "line_5", "line_6"
+            ]
     },
     {
         "nome_do_arquivo": "file3.txt",
         "qtd_linhas": 7,
-        "linhas_do_arquivo": ["line1", "line2", "line3", "line4", "line5", "line6", "line7"]
+        "linhas_do_arquivo": [
+            "line1", "line2", "line3", "line4", "line5", "line6", "line7"
+            ]
     },
     {
         "nome_do_arquivo": "file4.txt",
