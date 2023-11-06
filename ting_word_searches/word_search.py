@@ -4,7 +4,7 @@ def exists_word(word, instance):
     for index in instance._queue:
         ocurrences = []
 
-        for line_number, line in enumerate(index["linhas_do_arquivo"],1):
+        for line_number, line in enumerate(index["linhas_do_arquivo"], 1):
             if word.lower() in line.lower():
                 ocurrences.append({"linha": line_number})
 
@@ -19,7 +19,7 @@ def exists_word(word, instance):
 
 def search_by_word(word, instance):
     result_search = []
-    
+
     for index in instance._queue:
         ocurrences = []
 
